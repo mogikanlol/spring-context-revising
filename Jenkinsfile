@@ -14,6 +14,9 @@ pipeline {
 
             steps {
                 echo 'testing the application...'
+                script {
+                    echo 'hello from script block'
+                }
             }
         }
         
